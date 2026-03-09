@@ -1,0 +1,7 @@
+public class Shape
+{
+    public virtual void Draw()
+    {
+        Console.WriteLine("Drawing shape");
+    }
+}
