@@ -1,14 +1,23 @@
 public class Animal
 {
-    private string Name { get; set; }
+    // Encapsulation
+    private string name;
 
+    public string Name
+    {
+        get { return name; }
+        set { name = value; }
+    }
+
+    // Constructor
     public Animal(string name)
     {
         Name = name;
     }
 
+    // Virtual method for polymorphism
     public virtual void Eat()
     {
-        Console.WriteLine($"{Name} is eating");
+        Console.WriteLine("Animal is eating");
     }
 }
