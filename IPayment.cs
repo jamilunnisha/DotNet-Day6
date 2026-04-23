@@ -1,4 +1,4 @@
 public interface IPayment
 {
-    void Pay(double amount);
+    void Pay();
 }

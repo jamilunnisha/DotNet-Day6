@@ -1,7 +1,7 @@
 public class CreditCardPayment : IPayment
 {
-    public void Pay(double amount)
+    public void Pay()
     {
-        Console.WriteLine("Paid " + amount + " using Credit Card");
+        Console.WriteLine("Paid using Credit Card");
     }
 }

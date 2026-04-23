@@ -1,7 +1,14 @@
 public class Animal
 {
-    public void Eat()
+    private string Name { get; set; }
+
+    public Animal(string name)
     {
-        Console.WriteLine("Animal is eating");
+        Name = name;
+    }
+
+    public virtual void Eat()
+    {
+        Console.WriteLine($"{Name} is eating");
     }
 }
